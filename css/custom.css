@@ -4,12 +4,104 @@
     font-family: 'Open Sans', sans-serif !important;
 }
 
+body {
+    background-color: #424242;
+}
+
 .social {
     font-family: 'Glyphicons Social' !important;
+    color: white;
 }
 
 .center {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.grow-hover {
+    display: inline-block;
+}
+
+.grow-hover > h2 {
+    display: inline-flex;
+    cursor: pointer;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.grow-hover:hover > h2 {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+}
+
+.grow-hover > span {
+    transition: width 0.5s;
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    
+    overflow: hidden;
+    width: 0px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: -6px;
+    font-size: 1em;
+    direction: rtl;
+    z-index: -1;
+}
+
+.grow-hover:hover > span {
+    width: 180px ;
+}
+
+.name {
+    color: #EBEBEB;
+}
+
+.title {
+    color: #EBEBEB;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: #2E2E2E;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projects-label {
+    color: white;
+    font-weight: 300;
+    font-size: 2em;
+    position: relative;
+}
+
+.project-title {
+    color: white;
+    text-decoration: none;
+}
+
+.project-title:hover {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.project-description  {
+    color: white;
+    float: right;
+}
+
+.project-content img {
+    width: 100%;
 }
