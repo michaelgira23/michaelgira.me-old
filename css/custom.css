@@ -4,6 +4,10 @@
     font-family: 'Open Sans', sans-serif !important;
 }
 
+.social {
+    font-family: 'Glyphicons Social' !important;
+}
+
 .center {
     margin-left: auto;
     margin-right: auto;
