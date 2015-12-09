@@ -83,6 +83,12 @@ body {
     flex-wrap: wrap;
 }
 
+@media(max-width: 1200px) {
+    .project {
+        margin-top: 3em;
+    }
+}
+
 .projects-label {
     color: white;
     font-weight: 300;
@@ -90,9 +96,15 @@ body {
     position: relative;
 }
 
+.project-header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .project-title {
     color: white;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
 .project-title:hover {
@@ -102,7 +114,7 @@ body {
 
 .project-description  {
     color: white;
-    float: right;
+    align-self: flex-end;
 }
 
 .project-content img {
@@ -111,5 +123,4 @@ body {
 
 .bio {
     color: white;
-    
 }
