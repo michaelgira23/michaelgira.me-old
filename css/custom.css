@@ -75,6 +75,9 @@ body {
 
 .jumbotron {
     background-color: #2E2E2E;
+}
+
+.projects {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -104,4 +107,9 @@ body {
 
 .project-content img {
     width: 100%;
+}
+
+.bio {
+    color: white;
+    
 }
