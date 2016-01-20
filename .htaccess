@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^home/?$ index.html
+RewriteRule ^round-progress/?$ round-progress.php
