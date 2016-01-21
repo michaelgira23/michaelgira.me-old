@@ -1,0 +1,78 @@
+/*
+ * The MIT License (MIT)
+ * 
+ * Copyright (c) 2016 Michael Gira
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ */
+
+.svg-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-label {
+    background-color: rgba(33, 176, 178, 0.5);
+    color: rgba(39, 47, 47, 0.7);
+    padding: 0.3em;
+    border-radius: 0.25em;
+    margin: 1em;
+}
+
+svg {
+    width: 30em;
+}
+
+circle.svg-progress-bar,
+ellipse.svg-progress-bar {
+    transform: rotate(-90deg);
+}
+
+.svg-progress-bar {
+    fill-opacity: 0;
+    stroke-width: 3%;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.svg-progress-bar-thin {
+    stroke-width: 1%;
+}
+
+.progress-bar-green {
+    stroke: rgba(0, 128, 0, 0.5);
+}
+
+.progress-bar-blue {
+    stroke: rgba(173, 216, 230, 0.5);
+}
+
+.progress-bar-yellow {
+    stroke: rgba(255, 255, 0, 0.5);
+}
+
+.progress-bar-red {
+    stroke: rgba(255, 0, 0, 0.5);
+}
+
+.progress-bar-black {
+    stroke: rgba(0, 0, 0, 0.5);
+}
