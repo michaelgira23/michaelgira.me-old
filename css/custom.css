@@ -1,126 +1,126 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 * {
-    font-family: 'Open Sans', sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
 }
 
 body {
-    background-color: #424242;
+	background-color: #424242;
 }
 
 .social {
-    font-family: 'Glyphicons Social' !important;
-    color: white;
+	font-family: 'Glyphicons Social' !important;
+	color: white;
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 .bold {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 .grow-hover {
-    display: inline-block;
+	display: inline-block;
 }
 
 .grow-hover > h2 {
-    display: inline-flex;
-    cursor: pointer;
-    transition-duration: 0.8s;
-    transition-property: transform;
+	display: inline-flex;
+	cursor: pointer;
+	transition-duration: 0.8s;
+	transition-property: transform;
 }
 
 .grow-hover:hover > h2 {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
 }
 
 .grow-hover > span {
-    transition: width 0.5s;
-    -webkit-transition: width 0.5s;
-    -moz-transition: width 0.5s;
-    
-    overflow: hidden;
-    width: 0px;
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: -6px;
-    font-size: 1em;
-    direction: rtl;
-    z-index: -1;
+	transition: width 0.5s;
+	-webkit-transition: width 0.5s;
+	-moz-transition: width 0.5s;
+
+	overflow: hidden;
+	width: 0px;
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: -6px;
+	font-size: 1em;
+	direction: rtl;
+	z-index: -1;
 }
 
 .grow-hover:hover > span {
-    width: 180px ;
+	width: 180px ;
 }
 
 .name {
-    color: #EBEBEB;
+	color: #EBEBEB;
 }
 
 .title {
-    color: #EBEBEB;
-    margin-top: 0;
-    font-weight: 300;
+	color: #EBEBEB;
+	margin-top: 0;
+	font-weight: 300;
 }
 
 .contact {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .jumbotron {
-    background-color: #2E2E2E;
+	background-color: #2E2E2E;
 }
 
 .projects {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 @media(max-width: 1200px) {
-    .project {
-        margin-top: 3em;
-    }
+	.project {
+		margin-top: 3em;
+	}
 }
 
 .projects-label {
-    color: white;
-    font-weight: 300;
-    font-size: 2em;
-    position: relative;
+	color: white;
+	font-weight: 300;
+	font-size: 2em;
+	position: relative;
 }
 
 .project-header {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .project-title {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
 }
 
 .project-title:hover {
-    color: darkgray;
-    text-decoration: none;
+	color: darkgray;
+	text-decoration: none;
 }
 
 .project-description  {
-    color: white;
-    align-self: flex-end;
+	color: white;
+	align-self: flex-end;
 }
 
 .project-content img {
-    width: 100%;
+	width: 100%;
 }
 
 .bio {
-    color: white;
+	color: white;
 }
